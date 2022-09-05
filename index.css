@@ -104,3 +104,161 @@ line-height: 131.02%;
     height: 392px;
     left: 126px;
 }
+.hoy{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.recom-carta{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.carta{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 100px;
+    background-color: #252525;
+    border-radius: 10px;
+}
+.img1-carta{
+    background: url("./imagenes-y-assets/Photo Menu-9.png");
+    }
+.img2-carta{
+    background: url("./imagenes-y-assets/Photo Menu-8.png ");
+    }
+.img3-carta{
+    background: url("./imagenes-y-assets/Photo Menu-10.png");
+    }
+.img-carta{
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 10px;
+    width: 100px;
+    height: 65px;
+    }    
+.text-carta{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 177px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.text-carta h3{
+    font-weight: 500;
+}
+.text-carta p{
+    opacity: 0.3;
+    font-weight: 200;
+    font-size: 14px;
+}
+.text-carta h4{
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    width: 72px;
+    font-size: 19px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.buton-carta{
+    width: 100px;
+}
+.text-carta, .text-carta h3, .text-carta p, .buton-carta {
+background-color: #252525;
+}
+.buton-carta button{
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+    color: #FFFFFF;
+    border: none;
+    width: 80px;
+    height: 27px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.recom-tit h2{
+    position: relative;
+    width: 893px;
+    line-height: 40px;
+    left: 120px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 30px 0 0 30px;   
+}
+.cont-categ{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+}
+.categ-varias{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.carta-categ{
+    background: #252525;
+    width: 130px;
+    height: 130px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.tit-categ h2{
+    position: relative;
+    width: 893px;
+    line-height: 40px;
+    left: 120px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 30px 0 0 30px;
+}
+.img1-categ{
+    background: url(/imagenes-y-assets/image\ 34.png);
+}
+.img2-categ{
+    background: url(/imagenes-y-assets/burger\ 1.png);
+}
+.img3-categ{
+    background: url(/imagenes-y-assets/fries\ 2.png);
+}
+.img4-categ{
+    background: url(/imagenes-y-assets/pizza\ 2.png);
+}
+.img5-categ{
+    background: url(/imagenes-y-assets/buritto\ 1.png);
+}
+.img6-categ{
+    background: url(/imagenes-y-assets/taco\ 1.png);
+}
+.img7-categ{
+    background: url(/imagenes-y-assets/float\ 1.png);
+    }
+.img-categ{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 65px
+}
+.carta-categ p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #252525;
+}
+.rect-categ{
+    background: linear-gradient(98.81deg, #FFA100 -0.82%, #FB103D 101.53%);
+    width: 20px;
+    height: 3px;
+    border-radius: 15px;
+    border: none;
+}
+
